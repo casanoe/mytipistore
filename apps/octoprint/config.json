@@ -1,0 +1,29 @@
+{
+  "id": "octoprint",
+  "name": "OctoPrint",
+  "available": true,
+  "version": "1.9.3",
+  "tipi_version": 1,
+  "description": "Interface web de gestion d'imprimante 3D",
+  "short_desc": "Contr\u00f4le et surveillance d'imprimantes 3D",
+  "categories": [
+    "domotique"
+  ],
+  "port": 5000,
+  "exposable": true,
+  "author": "Gina H\u00e4u\u00dfge",
+  "source": "https://github.com/OctoPrint/OctoPrint",
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "variables": [
+    {
+      "id": "SERIAL_PORT",
+      "name": "Port s\u00e9rie de l'imprimante",
+      "description": "Exemple : /dev/ttyUSB0 ou /dev/ttyACM0",
+      "default": "/dev/ttyUSB0",
+      "required": true
+    }
+  ]
+}
