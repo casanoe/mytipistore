@@ -11,12 +11,6 @@
           "container": "/octoprint"
         }
       ],
-      "devices": [
-        {
-          "host": "${SERIAL_PORT}",
-          "container": "${SERIAL_PORT}"
-        }
-      ],
       "environment": {
         "ENABLE_MJPG_STREAMER": "true"
       }
