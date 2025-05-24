@@ -18,23 +18,23 @@
 
 ---
 
-## 🖼️ Aperçu visuel
+## 🖼️ Aperçus
 
 ### Tableau de bord d'impression
 
-![Dashboard OctoPrint](https://octoprint.org/assets/img/screenshots/octoprint-01.png)
+![Dashboard OctoPrint](https://octoprint.org/assets/img/features/temperature-tab.png)
 
 ---
 
 ### Visualisation G-code intégrée
 
-![Visualiseur G-code](https://octoprint.org/assets/img/screenshots/octoprint-03.png)
+![Visualiseur G-code](https://octoprint.org/assets/img/features/gcodeviewer-tab.png)
 
 ---
 
 ### Interface plugin manager
 
-![Plugin Manager](https://octoprint.org/assets/img/screenshots/octoprint-06.png)
+![Plugin Manager](hhttps://octoprint.org/assets/img/features/pluginrepo-dialog.png)
 
 ---
 

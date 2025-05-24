@@ -18,7 +18,13 @@
           "hostPath": "${ROOT_FOLDER_HOST}/media",
           "containerPath": "/srv/media"
         }        
-      ]
+      ],
+      "healthCheck": {
+        "test": "curl --fail http://localhost || exit 1",
+        "retries": 3,
+        "interval": "30s",
+        "timeout": "10s"
+      }
     }
   ]
 }
