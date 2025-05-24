@@ -21,13 +21,4 @@
   "updated_at": 1745674974072,
   "dynamic_config": true,
   "form_fields": [],
-  "variables": [
-    {
-      "id": "SERIAL_PORT",
-      "name": "Port s\u00e9rie de l'imprimante",
-      "description": "Exemple : /dev/ttyUSB0 ou /dev/ttyACM0",
-      "default": "/dev/ttyUSB0",
-      "required": true
-    }
-  ]
 }

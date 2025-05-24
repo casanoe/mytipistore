@@ -7,13 +7,19 @@
       "internalPort": 80,
       "volumes": [
         {
-          "host": "${APP_DATA_DIR}/config",
-          "container": "/octoprint"
-        }
-      ],
-      "environment": {
-        "ENABLE_MJPG_STREAMER": "true"
-      }
+          "hostPath": "${APP_DATA_DIR}/config",
+          "containerPath": "/octoprint"
+        },
+        {
+          "hostPath": "${APP_DATA_DIR}/data",
+          "containerPath": "/data"
+        },
+        {
+          "hostPath": "${ROOT_FOLDER_HOST}/media",
+          "containerPath": "/srv/media"
+        }        
+      ]
     }
   ]
 }
+
