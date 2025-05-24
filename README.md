@@ -1,6 +1,5 @@
-# Example App Store Template
-
-This repository serves as a template for creating your own custom app store for the Runtipi platform. Use this as a starting point to create and share your own collection of applications.
+# My Tipi Store
+This repository is my own custom app store for the Runtipi platform. 
 
 ## Repository Structure
 
@@ -16,14 +15,6 @@ This repository serves as a template for creating your own custom app store for 
 - **tests/**: Contains test files for the app store
 
   - `apps.test.ts`: Test suite for validating apps
-
-## Getting Started
-
-This repository is intended to serve as a template for creating your own app store. Follow these steps to get started:
-
-1. Click the "Use this template" button to create a new repository based on this template
-2. Customize the apps or add your own app folders in the `apps/` directory
-3. Test your app store by using it with Runtipi
 
 ## Documentation
 
