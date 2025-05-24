@@ -10,7 +10,7 @@
   ],
   "description": "Interface web de gestion d'imprimante 3D",
   "tipi_version": 2,
-  "version": "1.9.3",
+  "version": "1.11.1",
   "source": "https://github.com/OctoPrint/OctoPrint",
   "exposable": true,
   "supported_architectures": [
