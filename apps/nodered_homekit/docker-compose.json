@@ -19,8 +19,7 @@
           "hostPath": "${ROOT_FOLDER_HOST}/media",
           "containerPath": "/srv/media"
         }        
-      ],
+      ]
     }
-  ],
-  "$schema": "../dynamic-compose-schema.json"
+  ]
 }
