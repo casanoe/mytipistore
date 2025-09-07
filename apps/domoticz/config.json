@@ -6,7 +6,7 @@
   "author": "Domoticz Community",
   "port": 8080,
   "categories": [
-    "automatisation"
+    "utilities"
   ],
   "description": "Home automation system",
   "tipi_version": 2,
